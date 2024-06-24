@@ -1,6 +1,8 @@
 @font-face {
   font-family: 'It aspirer neue' ;
   src: url('font/LTAspirerNeue-Regular.otf');
+  font-family: 'Montserrat';
+  src: url('font/Montserrat-VariableFont_wght.ttf')
 }
 
 *,
@@ -15,6 +17,10 @@ body {
   font-family: 'It aspirer neue', sans-serif;
   color: #8197D3;
   background-color: #0B0B14;
+}
+
+p, button {
+  font-family: 'Montserrat';
 }
 
 .dark {
@@ -124,14 +130,14 @@ a:hover {
 }
 
 .cardgameright {
-  padding-top: 11rem;
+  padding-top: 10rem;
   padding-bottom: 1rem;
   padding-right: 1rem;
   padding-left: 1rem ;
 }
 
 .cardgameleft {
-  padding-top: 11rem;
+  padding-top: 10rem;
   padding-bottom: 1rem;
   padding-right: 1rem;
   padding-left: 1rem ;
@@ -145,4 +151,65 @@ a:hover {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 576px) {
+
+  .card {
+    display: flex;
+    border-radius: 10px;
+  }
+  
+  .cardsright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .cardsleft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cardscenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cardtitle {
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem ;
+  }
+  
+  .cardcenter {
+    padding:1rem;
+  }
+  
+  .carddailymode {
+    padding: 1rem;
+  }
+  
+  .cardtop {
+    padding-top: 9rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem ;
+  }
+  
+  .carddown {
+    padding: 1rem;
+   }
+  
+  .cardgroup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
