@@ -1,0 +1,122 @@
+@font-face {
+  font-family: 'It aspirer neue' ;
+  src: url('font/LTAspirerNeue-Regular.otf');
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'It aspirer neue', sans-serif;
+  color: #8197D3;
+  background-color: #11101E;
+}
+
+.dark {
+   background-color: #11101E;
+}
+
+.light {
+  background-color: #AFACD3;
+}
+
+a {
+  opacity: 0.6;
+}
+
+a:hover {
+ opacity: 1;
+}
+
+.logoswitch {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logoswitch img {
+  margin-top: 1rem ;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.logo img {
+  width: 50px;
+  height: 67px;
+}
+
+.switch {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.card {
+  display: flex;
+  border-radius: 10px;
+}
+
+.cardsright{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cardsleft{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardscenter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardtitle {
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem ;
+}
+
+.cardcenter {
+  padding:1rem;
+}
+
+.carddailymode {
+ padding: 1rem;
+}
+
+.cardtop {
+  padding-top: 9rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem ;
+}
+
+.carddown {
+  padding: 1rem;
+ }
+
+.cardgroup{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.cardgametitle {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
