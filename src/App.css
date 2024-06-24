@@ -14,7 +14,7 @@
 body {
   font-family: 'It aspirer neue', sans-serif;
   color: #8197D3;
-  background-color: #11101E;
+  background-color: #0B0B14;
 }
 
 .dark {
@@ -109,14 +109,40 @@ a:hover {
   padding: 1rem;
  }
 
-.cardgroup{
+.cardgroup {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
 .cardgametitle {
-  display: flex;
+  padding: 1rem;
+}
+
+.cardgamemain {
+  padding: 1rem;
+}
+
+.cardgameright {
+  padding-top: 11rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem ;
+}
+
+.cardgameleft {
+  padding-top: 11rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem ;
+}
+
+.cardsgamecenter{
+  flex-direction: column;
   justify-content: center;
-  cursor: pointer;
+}
+.cardsgamegroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
