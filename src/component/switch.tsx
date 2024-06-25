@@ -7,8 +7,10 @@ function Switch(){
     function Turned(){
         if(turn===false) {
             setturn(true)
+            document.documentElement.style.setProperty('--background', '#AFACD3' )
         } else {
             setturn(false)
+            document.documentElement.style.setProperty('--background', '#0B0B14')
         }
 
     }
@@ -16,13 +18,13 @@ function Switch(){
     if(turn===false) {
         return (
             <a onClick={ Turned }>
-                <img src="./property/Property 1=Dark.png" alt="mode jour" />
+                <img src="./property/Property 1=Light.png" alt="mode jour" />
             </a>
         )
     } else {
         return (
             <a onClick={ Turned }>
-                <img src="./property/Property 1=Light.png" alt="mode nuit" />
+                <img src="./property/Property 1=Dark.png" alt="mode nuit" />
             </a>
         )
     }

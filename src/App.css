@@ -13,22 +13,23 @@
   margin: 0;
 }
 
+:root {
+  --background:  #0B0B14;
+}
+
 body {
   font-family: 'It aspirer neue', sans-serif;
   color: #8197D3;
-  background-color: #0B0B14;
+  background-color: var(--background);
+}
+
+
+.light{
+  background-color: #AFACD3;
 }
 
 p, button {
   font-family: 'Montserrat';
-}
-
-.dark {
-   background-color: #11101E;
-}
-
-.light {
-  background-color: #AFACD3;
 }
 
 a {
@@ -152,6 +153,59 @@ a:hover {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+
+@media(max-width: 1200px) {
+  .cardgametitle {
+    padding: 1rem;
+  }
+
+  .cardgametitle img {
+    width:95%
+  }
+  
+  .cardgamemain {
+    padding: 1rem;
+  }
+
+  .cardgamemain img {
+    width: 95%;
+  }
+
+  
+  .cardgameright {
+    padding-top: 8rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem ;
+  }
+
+  .cardgameright img {
+    width: 95%;
+  }
+  
+  .cardgameleft {
+    padding-top: 8rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem ;
+  }
+  
+  .cardgameleft img {
+    width: 95%;
+  }
+  
+  .cardsgamecenter{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .cardsgamegroup {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
 }
 
 @media (max-width: 576px) {
