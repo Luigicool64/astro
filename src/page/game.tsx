@@ -1,8 +1,18 @@
 import React from "react";
+import Switch from "../component/switch";
+import { Link } from "react-router-dom";
 
 function Game(){
     return(
         <>
+          <div className="logoswitch">
+            <div className="logo">
+                <Link to="/">
+                    <img src="./logo.png" alt="" />
+                </Link>
+            </div>
+                <Switch/>
+            </div>
             <div className="cardsgamegroup">
                 <div className="cardgameleft">
                     <img src="./card/Group-68.png" alt="carte du jeu gauche" />
