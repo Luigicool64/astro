@@ -1,5 +1,5 @@
 import React from "react";
-import Switch from "../component/switch";
+import Switch from "../components/switch";
 import { Link } from "react-router-dom";
 
 function Game(){

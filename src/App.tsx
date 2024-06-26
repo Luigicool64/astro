@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import './App.css';
-import Game from './page/game' ;
+import Game from './pages/Game' ;
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import Acueill from './page/acueill';
+import HomePage from './pages/Homepage';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Acueill/>
+    element: <HomePage/>
   },
   {
     path: '/game',
