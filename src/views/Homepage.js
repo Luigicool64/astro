@@ -34,7 +34,7 @@ function Homepage() {
           </div>
           <div className="cardcenter">
             <Link to="/game">
-              <img src={gameMenuCard} alt="carte partie" />
+              <img src={gameMenuCard} alt="carPte partie" />
             </Link>
           </div>
           <div className="card carddailymode">

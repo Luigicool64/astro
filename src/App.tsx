@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import './App.css';
-import Game from './pages/Game' ;
+import './styles/App.css';
+import Game from './views/Game' ;
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import HomePage from './pages/Homepage';
+import HomePage from './views/Homepage';
 
 const router = createBrowserRouter([
   {
