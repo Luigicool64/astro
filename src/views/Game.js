@@ -2,6 +2,9 @@ import React from "react";
 import Switch from "../components/switch";
 import { Link } from "react-router-dom";
 
+import titleGame from "../assets/images/homepage/game_name.png"
+import SideCard from "../components/SideCard";
+
 function Game(){
     return(
         <>
@@ -15,18 +18,18 @@ function Game(){
             </div>
             <div className="cardsgamegroup">
                 <div className="cardgameleft">
-                    <img src="./card/Group-68.png" alt="carte du jeu gauche" />
+                    <SideCard/>
                 </div>
                 <div className="cardsgamecenter">
                     <div className="cardgametitle">
-                        <img src="./card/Game Name.png" alt="title du jeu" />
+                        <img src={titleGame} alt="title du jeu" />
                     </div>
                     <div className="cardgamemain">
                         <img src="./card/Group-14.png" alt="carte du jeu principal" />
                     </div>
                 </div>
                 <div className="cardgameright">
-                    <img src="./card/Group-66.png" alt="carte du jeu droit" />
+                    <SideCard/>
                 </div>
             </div>
         </>

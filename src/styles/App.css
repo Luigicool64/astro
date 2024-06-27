@@ -1,6 +1,9 @@
 @font-face {
   font-family: 'It aspirer neue' ;
   src: url('../assets/fonts/LTAspirerNeue-Regular.otf');
+}
+
+@font-face {
   font-family: 'Montserrat';
   src: url('../assets/fonts/Montserrat-VariableFont_wght.ttf')
 }
@@ -127,7 +130,7 @@ a:hover {
 }
 
 .cardgamemain {
-  padding: 1rem;
+  align-items: center;
 }
 
 .cardgameright {
@@ -153,6 +156,15 @@ a:hover {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+
+.info {
+  flex-direction: row;
+}
+
+.info img{
+  weight: 32.62px;
+  height: 32px;
 }
 
 @media(max-width: 1200px) {
