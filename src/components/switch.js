@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-
+import Dark from "../assets/images/Property 1=Dark.png"
+import Light from "../assets/images/Property 1=Light.png";
 
 function Switch(){
-    const [turn, setturn] = useState<boolean>(false)
+    const [turn, setturn] = useState(false)
 
     function Turned(){
         if(turn===false) {
@@ -18,13 +19,13 @@ function Switch(){
     if(turn===false) {
         return (
             <a onClick={ Turned }>
-                <img src="./property/Property 1=Light.png" alt="mode jour" />
+                <img src={Dark} alt="mode jour" />
             </a>
         )
     } else {
         return (
             <a onClick={ Turned }>
-                <img src="./property/Property 1=Dark.png" alt="mode nuit" />
+                <img src={Light} alt="mode nuit" />
             </a>
         )
     }
