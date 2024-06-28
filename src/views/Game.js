@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 import titleGame from "../assets/images/homepage/game_name.png"
 import SideCard from "../components/SideCard";
+import CenterCard from "../components/CenterCard";
 
 function Game(){
     return(
@@ -17,7 +18,7 @@ function Game(){
                 <Switch/>
             </div>
             <div className="cardsgamegroup">
-                <div className="card cardgameleft">
+                <div className="cardgameleft">
                     <SideCard/>
                 </div>
                 <div className="cardsgamecenter">
@@ -25,10 +26,10 @@ function Game(){
                         <img src={titleGame} alt="title du jeu" />
                     </div>
                     <div className="cardgamemain">
-                        <img src="./card/Group-14.png" alt="carte du jeu principal" />
+                        <CenterCard/>
                     </div>
                 </div>
-                <div className="card cardgameright">
+                <div className="cardgameright">
                     <SideCard/>
                 </div>
             </div>
