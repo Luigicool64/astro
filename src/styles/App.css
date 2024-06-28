@@ -69,8 +69,8 @@ a:hover {
 }
 
 .card {
-  display: flex;
   border-radius: 10px;
+  background-color: #11101E;
 }
 
 .cardsright{
@@ -141,10 +141,10 @@ a:hover {
 }
 
 .cardgameleft {
-  padding-top: 10rem;
-  padding-bottom: 1rem;
-  padding-right: 1rem;
-  padding-left: 1rem ;
+  margin-top: 10rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem ;
 }
 
 .cardsgamecenter{
@@ -159,12 +159,44 @@ a:hover {
 }
 
 .info {
+  display: flex;
   flex-direction: row;
+  align-items: flex-start;
+  margin: 1rem;
+  
 }
 
 .info img{
-  weight: 32.62px;
+  width: 32.62px;
   height: 32px;
+  margin: 1rem;
+}
+
+.cardinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+
+.cardinfo h1, p {
+  color: #B7CCEA;
+}
+
+.cardinfo h1{
+  font-family: 'Montserrat';
+  text-align: center;
+  width: 225px;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 1rem;
+}
+
+.cardinfo p {
+  text-align: center;
+  margin: 1rem ;
+  font-size: 18px;
+  width: 270px;
 }
 
 @media(max-width: 1200px) {

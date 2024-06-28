@@ -17,7 +17,7 @@ function Game(){
                 <Switch/>
             </div>
             <div className="cardsgamegroup">
-                <div className="cardgameleft">
+                <div className="card cardgameleft">
                     <SideCard/>
                 </div>
                 <div className="cardsgamecenter">
@@ -28,7 +28,7 @@ function Game(){
                         <img src="./card/Group-14.png" alt="carte du jeu principal" />
                     </div>
                 </div>
-                <div className="cardgameright">
+                <div className="card cardgameright">
                     <SideCard/>
                 </div>
             </div>
