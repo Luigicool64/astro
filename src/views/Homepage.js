@@ -27,7 +27,7 @@ function Homepage() {
           </div>
         </div>
         <div className="cardscenter">
-          <div className="card cardtitle">
+          <div className="cardtitle">
             <Link to="#" >
               <img src={titleImage} alt="carte astrodle" />
             </Link>
@@ -37,7 +37,7 @@ function Homepage() {
               <img src={gameMenuCard} alt="carPte partie" />
             </Link>
           </div>
-          <div className="card carddailymode">
+          <div className="carddailymode">
             <Link to="#">
               <img src={dailyCard} alt="carte mode journalier" />
             </Link>
